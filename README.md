@@ -4,7 +4,7 @@ Compilezeit bekannt sein. Das Template **Araydyn**<T,N> bietet dynamische Arrays
 bei denen zur Compilezeit nur der Typ **T** und die Anzahl der Dimensionen **N**
 bekannt sein  müssen.
 ```
-int d = 8;
+size_t d = 8;
 Arrraydyn<int,3>  wuerfel(d,d,d);
 ```
 Der Zugriff auf die dynamischen Arrays erfolgt aber weiterhn in der üblichen Form:

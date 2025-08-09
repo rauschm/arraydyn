@@ -8,7 +8,8 @@
   Durch die Verwendung von Proxy-Klassen können die Arrays genau wie statische
   Arrays angesprochen werden.
 
-  Beipiel: ArrayDyn<int,3> wuerfel(8,8,8);
+  Beipiel: size_t d = 8;
+           ArrayDyn<int,3> wuerfel(d,d,d);
            wuerfel[1][2][3] = 4;
 ------------------------------------------------------------------------------*/
 #pragma once
