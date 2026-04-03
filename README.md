@@ -1,6 +1,6 @@
 # arraydyn
 Arrays in C++ sind statisch, die Größen der einzelnen Dimensionen müssen zur
-Compilezeit bekannt sein. Das Template **Araydyn**<T,N> bietet dynamische Arrays,
+Compilezeit bekannt sein. Das Template **Arraydyn**<T,N> bietet dynamische Arrays,
 bei denen zur Compilezeit nur der Typ **T** und die Anzahl der Dimensionen **N**
 bekannt sein  müssen.
 ```
